@@ -1,8 +1,8 @@
 [Script]
 #阅读 签到  分享 奖励 收取奖励  抽奖次数 抽奖
-http-request https:\/\/ocean\.shuqireader\.com\/* script-path=https://raw.githubusercontent.com/cola-x/yangmao/main/sxqs.js, requires-body=true, timeout=10, tag=body1
+http-request https:\/\/ocean\.shuqireader\.com\/* script-path=https://raw.githubusercontent.com/cola-x/Yo-x/ZIYE/Task/shuqi.js, requires-body=true, timeout=10, tag=body1
 #收益 任务
-http-request https:\/\/render\.shuqireader\.com\/* script-path=https://raw.githubusercontent.com/cola-x/yangmao/main/sxqs.js, requires-body=true, timeout=10, tag=body2
+http-request https:\/\/render\.shuqireader\.com\/* script-path=https://raw.githubusercontent.com/cola-x/Yo-x/ZIYE/Task/shuqi.js, requires-body=true, timeout=10, tag=body2
 
 [MITM]
 hostname = render.shuqireader.com,ocean.shuqireader.com,jcollection.shuqireader.com,activity-center-web.shuqireader.com
