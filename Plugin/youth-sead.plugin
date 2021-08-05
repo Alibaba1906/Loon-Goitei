@@ -6,10 +6,10 @@
 正常提现一次，获取提现请求(可选，AC无添加)
 */
 [Script]
-http-request https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList script-path=https://raw.githubusercontent.com/Alibaba1906/Loon-Goitei/main/Plugin/YouTh-Actc.js, enabled=true, tag=中青看点
-http-request https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json script-path=https://raw.githubusercontent.com/Alibaba1906/Loon-Goitei/main/Plugin/YouTh-Actc.js,  enabled=true, tag=中青看点
-http-request https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Sunert/Alibaba1906/Loon-Goitei/main/Plugin/YouTh-Actc.js, requires-body=true, enabled=true, tag=中青看点
-http-request https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json script-path=https://raw.githubusercontent.com/Alibaba1906/Loon-Goitei/main/Plugin/YouTh-Actc.js, requires-body=true, enabled=true, tag=中青看点
+http-request https:\/\/kd\.youth\.cn\/WebApi\/NewTaskIos\/getTaskList script-path=https://raw.githubusercontent.com/Alibaba1906/Loon-Goitei/main/YouTh-Actc.js, enabled=true, tag=中青看点
+http-request https:\/\/ios\.baertt\.com\/v5\/article\/info\/get\.json script-path=https://raw.githubusercontent.com/Alibaba1906/Loon-Goitei/main/YouTh-Actc.js,  enabled=true, tag=中青看点
+http-request https:\/\/ios\.baertt\.com\/v5\/user\/stay\.json script-path=https://raw.githubusercontent.com/Alibaba1906/Loon-Goitei/main/YouTh-Actc.js, requires-body=true, enabled=true, tag=中青看点
+http-request https:\/\/ios\.baertt\.com\/v5\/\w+\/withdraw\d?\.json script-path=https://raw.githubusercontent.com/Alibaba1906/Loon-Goitei/main/YouTh-Actc.js, requires-body=true, enabled=true, tag=中青看点
 
 [MITM]
 hostname = ios.baertt.com, kd.youth.cn
